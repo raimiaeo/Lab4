@@ -1,0 +1,124 @@
+/* Page background */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+  min-height: 100vh;
+  color: #222;
+}
+
+/* Form styling */
+form {
+  margin-bottom: 20px;
+  max-width: 400px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, button {
+  display: block;
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.sr {
+  margin-top: 10px;
+  font-weight: bold;
+  color: darkred;
+}
+
+/* Profile cards */
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card-person {
+  border: 1px solid #ccc;
+  padding: 12px;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+.card-person img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card-person h3 {
+  margin: 8px 0;
+  color: #333;
+}
+
+.card-person p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Table styling */
+#summary {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#summary th, #summary td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+#summary th {
+  background: #4CAF50;
+  color: white;
+}
+
+#summary tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+#summary tr:hover {
+  background: #f1f1f1;
+}
